@@ -34,8 +34,8 @@ h1 {
 }
 
 .box {
-    height: 18.5vmin;
-    width: 18.5vmin;
+    height: 18vmin;
+    width: 18vmin;
     border-radius: 1rem;
     border: none;
     box-shadow: 0 0 rgba(0, 0, 0, 0.3);
@@ -43,9 +43,11 @@ h1 {
     font-weight: bolder;
     color: #31436a;
     background-color: #f0f0f0;
+    /* background-color: pink; */
+
 }
 
-#resetBtn {
+.game-start-over {
     color: red;
     background-color: pink;
     font-weight: bolder;
@@ -56,4 +58,26 @@ h1 {
     border-radius: 0.80rem;
     box-shadow: 0 0 rgba(0, 0, 0, 0.3);
     margin: 1vmin 0;
+}
+
+#msg {
+    color: rgb(255, 44, 44);
+    text-align: center;
+    /* text-transform: capitalize; */
+    font-family: cursive;
+    font-size: 10vmin;
+    font-weight: bold;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vmin;
+}
+
+.hide {
+    display: none;
 }
